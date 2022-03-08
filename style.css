@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-div {
+    display: flex;
+    justify-content: center;
+}
+#navi {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    align-self: flex-start;
+    background-color: black;
+    top: 0;
+}
+#people {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.people {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 10px;
+}
+.ce {
+    background-color: azure;
+}
+.hidden {
+    display: none;
+}
